@@ -47,10 +47,6 @@ If you are using VS Code, you can also run the provided C/C++ build task for the
 
 ## Data Structures
 
-### Graph
-- [Dijkstra](DataStructures/Graph/Dijkstra.cpp)
-- [Undirect Graph](DataStructures/Graph/UndirectGraph.cpp)
-
 ### Linked List
 - [Circular Linked List](DataStructures/LinkedList/CircularLinkedList.cpp)
 - [Doubly Linked List](DataStructures/LinkedList/DoublyLinkedList.cpp)
@@ -67,6 +63,15 @@ If you are using VS Code, you can also run the provided C/C++ build task for the
 - [AVL Tree](DataStructures/Tree/AVLTree.cpp)
 - [Binary Search Tree](DataStructures/Tree/BinarySearchTree.cpp)
 - [Binary Tree](DataStructures/Tree/BinaryTree.cpp)
+
+### Graph
+- [Dijkstra](DataStructures/Graph/Dijkstra.cpp)
+- [Undirect Graph](DataStructures/Graph/UndirectGraph.cpp)
+
+### Hash Table
+- [Hash Table Using Chaining](DataStructures/HashTable/HashTableUsingChaining.cpp)
+- [Hash Table Using Linear Probing](DataStructures/HashTable/HashTableUsingLinearProbing.cpp)
+
 
 ## Pointer Examples
 - [Pointer Basics](Pointer/PointerBasic.cpp)
