@@ -1,23 +1,41 @@
 # Data Structures and Algorithms in C++
 
-A personal project with implementations of data structures and algorithms, written in C++ and created out of curiosity and for learning purposes.
+A personal C++ repository for learning and practicing common data structures and algorithms. This project includes standalone implementations organized by algorithm type and data structure.
 
-## Getting Started
-- [Hello World](HelloWorld.cpp)
+## Contents
+
+- `HelloWorld.cpp` — basic C++ starter example
+- `Algorithms/` — classic algorithm implementations
+- `DataStructures/` — core data structure examples
+- `Pointer/` — pointer fundamentals and usage in C++
+
+## Build and Run
+
+Use a standard C++ compiler with C++17 support.
+
+Example:
+
+```bash
+g++ -std=c++17 -O2 -g <path/to/file.cpp> -o <output>
+./<output>
+```
+
+If you are using VS Code, you can also run the provided C/C++ build task for the active file.
 
 ## Algorithms
-### Recursion:
+
+### Recursion
 - [Factorial](Algorithms/Recursion/Factorial.cpp)
 - [Fibonacci](Algorithms/Recursion/Fibonacci.cpp)
 - [Permutations](Algorithms/Recursion/Permutations.cpp)
 - [Subsets](Algorithms/Recursion/Subsets.cpp)
 - [Subsets Without Duplicate](Algorithms/Recursion/SubsetsWithoutDuplicate.cpp)
 
-### Searching:
+### Searching
 - [Binary Search](Algorithms/Searching/BinarySearch.cpp)
 - [Linear Search](Algorithms/Searching/LinearSearch.cpp)
 
-### Sorting:
+### Sorting
 - [Bubble Sort](Algorithms/Sorting/BubbleSort.cpp)
 - [Counting Sort](Algorithms/Sorting/CountingSort.cpp)
 - [Heap Sort](Algorithms/Sorting/HeapSort.cpp)
@@ -28,21 +46,31 @@ A personal project with implementations of data structures and algorithms, writt
 - [Selection Sort](Algorithms/Sorting/SelectionSort.cpp)
 
 ## Data Structures
-### Graph:
-*(Coming soon)*
 
-### Linked List:
+### Graph
+- [Dijkstra](DataStructures/Graph/Dijkstra.cpp)
+- [Undirect Graph](DataStructures/Graph/UndirectGraph.cpp)
+
+### Linked List
 - [Circular Linked List](DataStructures/LinkedList/CircularLinkedList.cpp)
 - [Doubly Linked List](DataStructures/LinkedList/DoublyLinkedList.cpp)
 - [Singly Linked List](DataStructures/LinkedList/SinglyLinkedList.cpp)
 
-### Stack & Queue:
+### Stack & Queue
 - [Implement Queue](DataStructures/Stack&Queue/ImplementQueue.cpp)
 - [Implement Stack](DataStructures/Stack&Queue/ImplementStack.cpp)
 - [Queue Using Stack](DataStructures/Stack&Queue/QueueUsingStack.cpp)
 - [Sliding Window Sum](DataStructures/Stack&Queue/SlidingWindowSum.cpp)
 - [Stack Using Queue](DataStructures/Stack&Queue/StackUsingQueue.cpp)
 
-### Tree:
+### Tree
+- [AVL Tree](DataStructures/Tree/AVLTree.cpp)
 - [Binary Search Tree](DataStructures/Tree/BinarySearchTree.cpp)
 - [Binary Tree](DataStructures/Tree/BinaryTree.cpp)
+
+## Pointer Examples
+- [Pointer Basics](Pointer/PointerBasic.cpp)
+
+## Notes
+
+This repository is intended for study, experimentation, and reference. Each example is implemented in a single source file to keep the code easy to explore and run.
